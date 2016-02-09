@@ -3,10 +3,32 @@
 <head>
 	<title>ScriptEd Unit 9: Linking pages</title>
 	<link rel="stylesheet" href="Styles/Styles.css" type="text/css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" />
 
 </head>
-<body>
-		<h1>DEPRESSING LIFE</h1>
+<body id="home">
+	 	<h1 id="homehead">DEPRESSING LIFE</h1>
+	<div>
+   <ul class="nav navbar-nav">
+      <li class="active"><a href="index.html">Home</a></li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Page 1-1</a></li>
+          <li><a href="#">Page 1-2</a></li>
+          <li><a href="#">Page 1-3</a></li> 
+        </ul>
+      </li>
+      <li><a href="#">Page 2</a></li> 
+      <li><a href="#">Page 3</a></li> 
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+	
 		<a href="pages/page1.html">Page 1</a>
 				<a href="pages/page2.html">Page 2</a>
 				<a href="pages/page3.html">Page 3</a>

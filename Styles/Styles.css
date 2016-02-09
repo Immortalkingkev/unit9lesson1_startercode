@@ -1,7 +1,15 @@
-h1{
+#homehead{
     color:cornflowerblue;
 }
 
-body{
+#home{
     background-image: url("http://orig02.deviantart.net/3f50/f/2008/146/e/7/suffering_by_magicshadow.jpg");
+}
+
+#page1head{
+    color:red;
+}
+
+#page1{
+    background-image: url("https://s-media-cache-ak0.pinimg.com/236x/39/67/43/39674325494b7477c59796a04d4a1d21.jpg")
 }
